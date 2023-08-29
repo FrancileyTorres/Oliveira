@@ -1,0 +1,622 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+
+html{
+    scroll-behavior:smooth;
+    
+}
+
+* {   
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 100%;
+    
+     
+}
+
+body{
+    
+   
+    font-size: 100%;  
+   
+    background-color: rgb(30, 30, 30);  
+}
+
+::-webkit-scrollbar {
+    width:12px;
+    height: 10px;
+    }
+     
+    /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
+    ::-webkit-scrollbar-track {
+    background:rgb(30,30,30);
+    }
+     
+    /* aqui é a alça da barra, que demonstra a altura que você está na página
+    estou colocando uma cor azul clara nela*/
+    ::-webkit-scrollbar-thumb {
+    background: rgb(212, 159, 23);
+    }
+
+.logo{
+
+    
+    padding-left: 180px;
+    
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding:0.1px;
+    background-color: rgb(41, 41, 41);
+    position: fixed;
+    height:60px ;
+    width: 100%;
+    top: 0;
+    border-bottom: 0.5px solid rgba(252, 232, 152, 0.559);
+    
+}
+
+.cabecalho img{
+    width: 45px;   
+    
+}
+
+.cabecalho_menu{
+    display: flex;
+    gap: 20px;
+}
+     
+.cabecalho_menu_item{
+    font-family: 'Righteous', cursive;
+    color:white;
+    font-weight: 100;
+    font-size:23px;
+    padding-right: 50px;
+}
+
+.cabecalho_menu_item:hover{
+    color: rgb(212, 159, 23);
+    font-size: 23px;
+    
+}
+
+
+.conteudo_principal_esquerdo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left:  150px;
+    padding-top: 100px; 
+    
+}
+
+.conteudo_principal_Conhecimentos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left:  150px;
+    padding-top: 100px; 
+    
+}
+    
+
+
+.conteudo_principal_escrito_titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    font-size: 26px;
+    color: rgb(150, 147, 147);
+}
+
+.conteudo_principal_Conhecimentos_escrito_titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    font-size: 26px;
+    color: rgb(150, 147, 147);
+}
+
+.conteudo_principal_escrito_subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-size: 19px;
+    color: rgb(199, 199, 197);
+    font-weight: 1.9;
+    padding-inline: 15px;
+    padding: 40px;
+    line-height: 2; /*espaçamento entre altura da linha*/
+    
+    width: 650px;
+    height: 450px;
+    
+}
+
+.conteudo_principal_Conhecimentos_escrito_subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-size: 19px;
+    color: rgb(199, 199, 197);
+    font-weight: 1.9;   
+    padding-inline: 15px;
+    padding: 40px;
+    line-height: 1.7;
+    
+    width: 700px;
+    word-spacing:2px;
+    
+}
+
+.conteudo_principal_imagem_direita{
+    height: 220px;
+    width: 400px;
+    margin-top: 100px;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-right: 10px;
+    background-color: brown;
+}
+
+
+
+
+
+.conteudo_principal_projeto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left:  150px;
+    padding-top: 100px; 
+    
+}
+    
+
+
+
+.conteudo_principal_projeto_escrito_titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    font-size: 26px;
+    color: rgb(150, 147, 147);
+}
+
+
+
+.conteudo_principal_projeto_escrito_subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+    color: rgb(199, 199, 197);
+    font-weight: 2;
+    padding-inline: 15px;
+    padding: 40px;
+    line-height: 1.8;
+    
+    width: 700px;
+    word-spacing: 2px;
+    
+    
+}
+
+
+
+
+
+.conteudo_principal_contato{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left:  150px;
+    padding-top: 100px; 
+    
+}
+    
+
+
+
+.conteudo_principal_contato_escrito_titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    font-size: 26px;
+    color: rgb(150, 147, 147);
+}
+
+
+
+.conteudo_principal_contato_escrito_subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+    color: rgb(199, 199, 197);
+    font-weight: 2;
+    padding-inline: 15px;
+    padding: 200px;
+    line-height: 1.8;
+    
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  
+    
+    
+}
+
+
+
+.conteudo_home_esquerdo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left:  150px;
+    padding-top: 120px; 
+    
+}
+
+
+    
+
+
+.conteudo_home_escrito_titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    font-size: 26px;
+    color: rgb(150, 147, 147);
+}
+
+
+
+.conteudo_home_escrito_subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-size: 22px;
+    color: rgb(199, 199, 197);
+    font-weight: 2;
+    padding-inline: 15px;
+    padding: 40px;
+    line-height: 2;
+    
+    max-width: 600px;
+    height: 450px;
+   
+    
+}
+
+.conteudo_home_imagem_direita{
+  
+    width: 380px;
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    
+   
+   
+}
+
+.conteudo_sobre_imagem_direita{
+    width: 430px;
+    margin-top: 0px;
+    margin-left: 20px;
+
+}
+
+.conteudo_conhecimento_imagem_direita{
+    width: 350px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+.conteudo_projetos_imagem_direita{
+    width: 350px;
+    margin-top: 0px;
+    margin-left: 30px;
+
+}
+
+.zap{
+    width: 60px;
+    margin-top: 0px;
+    margin-left: 30px;
+
+}
+
+
+
+.gmail{
+    width: 60px;
+    margin-top: 0px;
+    margin-left: 30px;
+
+}
+
+.linkedin{
+    width: 60px;
+    margin-top: 0px;
+    margin-left: 30px;
+
+}
+.git{
+    width: 60px;
+    margin-top: 0px;
+    margin-left: 30px;
+
+}
+
+.icone{
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    width: 500px;
+    justify-content: center;
+    margin-top: 100px;
+    
+
+}
+
+.rodape{
+   
+    margin-top: 190px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: rgb(199, 199, 197);
+    font-family: 'Sarala', sans-serif;
+    
+}
+
+.linha{
+    margin-top: 10px;
+    border-top: 0.4px solid rgba(239, 206, 72, 0.47);
+    width: 700px;
+    
+   
+}
+
+@media (max-width: 576px) {
+    .cabecalho {
+        width: 110%;
+        position:absolute;
+        align-items: center;
+       line-height: 0.4;
+      
+     
+       
+        height: 24%;
+      
+    }
+
+    .logo{
+              
+        width: 30%;
+        padding: 0px;
+        margin-left: 3%;
+        
+       
+       
+       
+      
+    }
+
+    .cabecalho img{
+        width: 100%;
+        
+
+    }
+
+
+    .cabecalho_menu {
+        flex-direction: column;
+        display: flex;
+        text-align:start;
+        width: 100% ;
+        padding-top: 3px;
+        padding-left: 40px;
+        
+    }
+ .cabecalho_menu_item {
+            margin-top: 1px;
+
+            
+        }
+
+      
+
+
+        .conteudo_home_esquerdo{
+         
+           
+            flex-direction: column;
+            display: flex;            
+            padding-left: 5px;
+            
+            max-width: 100%;
+          
+           
+
+        }
+
+        .conteudo_home_escrito_titulo{
+
+                flex-direction: column;
+                display: flex;
+                padding-top: 100px;
+                width: 100%;
+               
+                height: 100px;
+         
+          
+    
+         }
+    
+         .conteudo_home_escrito_subtitulo{
+          
+            height: 350px;
+         }
+        
+        
+         .conteudo_home_esquerdo img{
+            width: 30%;
+            margin-left: 30%;
+           
+          
+           
+                
+         }
+        
+        
+
+         .imagem_home{
+            
+            height: 30px;
+         }
+
+         
+
+         .conteudo_principal_esquerdo{
+         
+           
+            flex-direction: column;
+            display: flex;            
+            padding-left: 5px;
+            
+            max-width: 100%;
+         }
+
+         .conteudo_principal_escrito_subtitulo{
+            max-width: 100%;
+           
+            height: 700px;
+         }
+          
+         .conteudo_principal_esquerdo img{
+            width: 50%;
+            margin-left: 20%;
+           
+           
+           
+                
+         }
+        
+        
+
+         .imagem_sobre{
+           
+            height: 40px;
+         }
+           
+         .conteudo_principal_Conhecimentos{
+         
+           
+            flex-direction: column;
+            display: flex;            
+            padding-left: 5px;
+            
+            max-width: 100%;
+           
+         
+         }
+         .conteudo_principal_Conhecimentos img{
+            width: 50%;
+            margin-left: 20%;
+           
+           
+           
+                
+         }
+        
+        
+
+         .imagem_conhecimento{
+           
+            height: 100px;
+         }
+         
+         .conteudo_principal_projeto img{
+            width: 50%;
+            margin-left: 20%;
+           
+           
+           
+                
+         }
+        
+        
+
+         .imagem_projetos{
+           
+            height: 150px;
+         }
+
+
+
+
+.conteudo_principal_projeto{
+    flex-direction: column;
+    display: flex;            
+    padding-left: 5px;
+    
+    max-width: 100%;
+
+}
+
+
+         
+         .conteudo_principal_contato{
+         
+           
+            flex-direction: column;
+            display: flex;            
+            padding-left: 5px;
+            
+            max-width: 100%;
+         }
+
+
+      
+         .conteudo_principal_projeto_escrito_subtitulo{
+            max-width: 100%;
+            height: 850px;
+            
+
+         }
+
+.conteudo_principal_contato{
+    flex-direction: column;
+    display: flex;            
+    padding-left: 5px;
+    height: 550px;
+    max-width: 100%;
+    
+
+}
+.icone{
+    flex-direction: row;
+    display: flex;            
+    margin-left: 100px;
+    height: 100px;
+    width: 100%;
+    
+}
+.conteudo_principal_contato_escrito_subtitulo{
+
+    flex-direction: column;
+    display: flex;            
+    padding-left: 5px;
+    margin-left: 70px;
+    height: 600px;
+    max-width: 70%;
+    
+
+}
+        
+}
